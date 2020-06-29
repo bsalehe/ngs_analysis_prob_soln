@@ -5,7 +5,7 @@ This repository describes issues and fixes when working with next genration sequ
 ### Error: FastQC ¨...java.lang.OutOfMemoryError: GC overhead limit exceeded¨
 Normally this error occurs when allocated memory is too small to handle for instance long reads data
 
-### Fixes
+### Fix
 In your FastQC command include -t 2 option as directed here: https://github.com/s-andrews/FastQC/issues/24
 
 Example:
