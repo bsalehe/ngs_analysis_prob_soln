@@ -7,6 +7,7 @@ Normally this error occurs when allocated memory is too small to handle for inst
 In your FastQC command include -t 2 options as directed here: https://github.com/s-andrews/FastQC/issues/24
 
 Example:
+
 cat ../long_reads/*.fastq | fastqc -t 3 stdin:long_reads
 
 
