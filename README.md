@@ -4,7 +4,7 @@ This repository describes issues and solutions when working with next genration 
 Normally this error occurs when allocated memory is too small to handle for instance long reads data
 
 ### Soln
-In your FastQC command include -t 2 options as directed here: https://github.com/s-andrews/FastQC/issues/24
+In your FastQC command include -t 2 option as directed here: https://github.com/s-andrews/FastQC/issues/24
 
 Example:
 
